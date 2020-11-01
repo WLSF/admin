@@ -1,0 +1,8 @@
+<h1>Show Registry</h1>
+
+<ul>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.registry_path(@conn, :edit, @registry) %></span>
+<span><%= link "Back", to: Routes.registry_path(@conn, :index) %></span>
